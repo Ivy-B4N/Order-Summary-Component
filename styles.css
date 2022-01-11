@@ -191,13 +191,16 @@ a {
   }
 }
 
-@media (min-width: 310px) and (max-width: 370px) {
+@media (max-width: 375px) {
 
   body {
     background-image: url(./images/pattern-background-mobile.svg);
     background-repeat: repeat-x;
     background-color: hsl(225, 100%, 94%);
   }
+}
+
+@media (max-width: 370px) {
 
   .container {
     padding: 8% 2%;
@@ -206,7 +209,7 @@ a {
   .card {
     width: 18rem;
   }
-
+  
   .price-box {
     display: flex;
     margin-bottom: 10px;
@@ -221,38 +224,11 @@ a {
     padding: 18px;
     border-radius: 10px;
   }
-
 }
 
 @media (max-width: 310px) {
 
-  body {
-    background-image: url(./images/pattern-background-mobile.svg);
-    background-repeat: repeat-x;
-    background-color: hsl(225, 100%, 94%);
-  }
-
-  .container {
-    padding: 8% 2%;
-  }
-
   .card {
     width: 16rem;
   }
-
-  .price-box {
-    display: flex;
-    margin-bottom: 10px;
-  }
-
-  .pricing-container {
-    background-color: hsl(225, 100%, 98%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 18px;
-    border-radius: 10px;
-  }
-
 }

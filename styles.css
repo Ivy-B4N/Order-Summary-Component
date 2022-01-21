@@ -28,27 +28,6 @@ a {
   text-decoration: none;
 }
 
-/* attribution */
-
-.attribution {
-  color: hsl(225, 21%, 75%);
-  padding: 5px 10px;
-  position: absolute;
-}
-
-  .attribution p {
-    margin: 10px 0;
-    font-size: 20px;
-  }
-
-  .attribution a {
-    color: hsl(225, 21%, 75%);
-  }
-
-  .attribution a:hover {
-    color: hsl(225, 26%, 44%);
-  }
-
 /* card */
 
 .container {
@@ -156,13 +135,6 @@ a {
 }
 
 /* responsive designs */
-
-@media (max-width: 1000px) {
-  .attribution {
-    position: relative;
-    text-align: center;
-  }
-}
 
 @media (max-width: 550px) {
 
